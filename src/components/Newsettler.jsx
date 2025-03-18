@@ -1,11 +1,6 @@
 import React from 'react'
 import '../style/newsettler.css'
 import rasm1 from '../image/newsettler.png'
-import rasm2 from '../image/newsettler (2).png'
-import rasm3 from '../image/newsettler (3).png'
-import rasm4 from '../image/newsettler (4).png'
-import rasm5 from '../image/Group 49.png'
-import rasm6 from '../image/newsettler (1).png'
 function Newsettler() {
   return (
     <section className='newsettler'>
