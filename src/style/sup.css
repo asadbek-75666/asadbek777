@@ -1,0 +1,51 @@
+.sup
+{
+    margin-bottom: 157px;
+}
+.sup h1
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 35px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+width: 826px;
+margin: 0 auto;
+padding-bottom: 67px;
+}
+.sup h6
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187%;
+    color: #fff;
+    padding-bottom: 32px;
+}
+.sup p
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+color: #fff;
+width: 545px;
+padding-bottom: 46px;
+}
+.sup img
+{
+    width: 100%;
+}
+@media(max-width:860px)
+{
+    .sup h1
+    {
+        width: 100% ;
+        font-size: 25px;
+    }
+    .sup p
+    {
+        width: 100% ;
+    }
+}

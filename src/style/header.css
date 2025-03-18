@@ -1,0 +1,128 @@
+.header {
+  margin-top: 37px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__wrapper h5 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 153%;
+  color: #fff;
+}
+.header__wrapper ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+  }
+.header__wrapper li a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+.header__wrapper button {
+  border-radius: 6px;
+  border: none;
+  width: 131px;
+  height: 41px;
+  background: #fa9021;
+}
+.header__wrapper button a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+.header__wrapper li .active::after {
+  content: "";
+  display: block;
+  border-radius: 20px;
+  width: 31px;
+  height: 4px;
+  background: #dc7000;
+  position: absolute;
+  bottom: -10px;
+  left: -14px;
+}
+.header__wrapper li .active::before {
+  content: "";
+  display: block;
+  border-radius: 20px;
+  width: 5px;
+  height: 4px;
+  background: #dc7000;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+}
+.MENU {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  display: none;
+}
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: darkgray;
+  transition: 500ms;
+transform:translateX(-20000px);
+}
+.show
+{
+    transform:translateX(0);
+    transition: 500ms;
+}
+
+.modal .header__wrapper ul 
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    inset: 0;
+    font-size: 40px;
+
+}
+.ok {
+  position: relative;
+  z-index: 5;
+}
+.modal .header__wrapper img
+{
+    width: 100px;
+    position: absolute;
+top: 27px;
+    right: 30px;
+}
+.modal .header__wrapper h5
+{
+    padding-top: 27px;
+}
+.modal .header__wrapper ul li a
+{
+    font-size: 30px;
+}
+@media (max-width: 685px) {
+  .header .header__wrapper ul {
+    gap: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .header .header__wrapper ul {
+    display: none;
+  }
+  .MENU {
+    display: block;
+  }
+}

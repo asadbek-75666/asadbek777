@@ -1,0 +1,111 @@
+.hero{
+    margin: 120px 0 132px;
+}
+.hero__wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__content
+{
+    margin-bottom: 200px;
+}
+.hero__content h5
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155%;
+    color: #e87d0e;
+    padding-bottom: 17px;
+}
+.hero__content h2
+{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 50px;
+line-height: 155%;
+color: #fff;
+width: 479px;
+padding-bottom: 26px;
+}
+.hero__content p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 200%;
+color: #fff;
+width: 527px;
+padding-bottom: 50px;
+}
+.hero__content button
+{
+    border-radius: 40px;
+width: 195px;
+height: 53px;
+background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+border: none;
+}
+.hero__image
+{
+    position:relative;
+}
+.olma
+{
+    position: relative;
+    bottom:130px;
+    right: -10px;
+    width: 600px;
+    height: 700px;
+}
+.shra
+{
+    position: absolute;
+right: 500px;
+}
+.unreal
+{
+    position: absolute;
+    right: 150px;
+top: 10px;
+}
+.unity
+{
+    position:absolute;
+right: 600px;
+bottom: 500px;
+}
+@media(max-width:1200px)
+{
+    .hero__wrapper
+    {
+        flex-direction: column;
+    }
+}
+@media(max-width:650px)
+{
+    .olma
+{
+    width: 500px;
+    height: 600px;
+}
+}
+@media(max-width:600px)
+{
+    .hero__content h2
+    {
+        width: 95%;
+    }
+    .hero__content p
+    {
+        width: 95%;
+    }
+    .olma
+    {
+        width:100%;
+    }
+}

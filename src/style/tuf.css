@@ -1,0 +1,64 @@
+.tuf
+{
+    margin-bottom: 148px;
+}
+.tuf__wrapper
+{
+    display: flex;
+gap: 95px;
+justify-content: center;
+}
+.tuf__wrapper h5
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 203%;
+color: #fff;
+padding-bottom: 14px;
+}
+.tuf__wrapper h2
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 28px;
+line-height: 158%;
+color: #fff;
+width: 531px;
+padding-bottom: 14px;
+}
+.tuf__wrapper p
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 203%;
+color: #fff;
+width: 536px;
+}
+@media(max-width:1200px)
+{
+.tuf__wrapper
+{
+    justify-content: space-between;
+    gap: 1px;
+}
+}
+@media(max-width:1100px)
+{
+    .tuf__wrapper
+    {
+        flex-direction: column;
+    }
+}
+@media(max-width:600px)
+{
+    .tuf__wrapper h2
+    {
+        width: 100%;
+    }
+    .tuf__wrapper p
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+.mus__card
+{
+    border: 2px solid #ddd;
+border-radius: 10px;
+width: 400px;
+height: 230px;
+background: #0f0901;
+padding: 30px 0 30px 30px;
+position: relative;
+}
+.mus__card h4
+{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.mus__card h4 span
+{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 214%;
+text-align: center;
+color: #4f5665;
+display: block;
+}
+.mus__card p
+{
+    width: 340px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+}
+.hh
+{
+    position: absolute;
+    left: 70px;
+}
+.show
+{
+    border: 2px solid #dc7000;
+}
+@media(max-width:420px)
+{
+    .mus__card
+    {
+        width: 100%;
+    }
+    .mus__card p
+    {
+        width: 100%;
+    }
+}

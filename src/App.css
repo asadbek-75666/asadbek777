@@ -1,0 +1,29 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body
+{
+    background-color: #000;
+}
+.container
+{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Rubik", sans-serif;
+  }
+  a
+  {
+    text-decoration: none;
+  }
+  li
+  {
+    list-style: none;
+  }

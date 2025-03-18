@@ -1,0 +1,74 @@
+.rows
+{
+    margin: 110px 0 103px;
+}
+.rows__wrapper h6
+{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #fff;
+display: flex;
+gap: 15px;
+padding-bottom: 15px;
+justify-content: center;
+}
+.rows__wrapper h6 span
+{
+    color: #e47500;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+}
+.rows__wrapper h2
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+padding-bottom: 13px;
+}
+.rows__wrapper h5
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 74px;
+}
+
+.inputt
+{
+    border-radius: 10px;
+width: 400px;
+height: 49px;
+background: #1c140f;
+position: relative;
+color: #fff;
+font-size: 30px;
+padding-top: 5px;
+padding-left: 50px;
+display: block;
+margin: 0 auto;
+}
+.rows__wrapper input::placeholder
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189%;
+    color: #fff;
+    padding-left: 5px;
+}
+@media(max-width:440px) {
+    .inputt
+    {
+        width: 100%;
+    }
+}

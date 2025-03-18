@@ -1,0 +1,184 @@
+.cege
+{
+    margin: 85px 0 120px;
+}
+.cege__content
+{
+    text-align: center;
+}
+.cege__content h6
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #fff;
+gap: 10px;
+display: flex;
+padding-bottom: 16px;
+justify-content: center;
+}
+.cege__content h6 span
+{
+    color: #e47500;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+}
+.cege__content h2
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+width: 942px;
+margin: 0 auto;
+}
+.cege__content h5
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 70px;    
+}
+.cege__wrapper
+{
+    background: #1c140f;
+    border-radius: 10px;
+width: 100%;
+margin: 0 auto;
+max-width: 1000px;
+}
+.cege__wrapper2
+{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+    padding: 67px 83px 67px;
+}
+.cege__card1
+{
+    display: flex;
+    gap: 36px;
+}
+.cege__card1 h5 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+    padding-right: 50px;
+    border-right: 2px solid #fff;
+}
+.cege__card1 h5 span
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+}
+.cege__card2
+{
+    display: flex;
+    gap: 36px;
+}
+.cege__card2 img
+{
+    padding-left: 100px;
+}
+.cege__card2 h5 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+    padding-right: 50px;
+    border-right: 2px solid #fff;
+}
+.cege__card2 h5 span
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+}
+.cege__card3
+{
+    display: flex;
+    gap: 36px;
+}
+.cege__card3 img
+{
+    padding-left: 100px;
+}
+.cege__card3 h5 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+}
+.cege__card3 h5 span
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+}
+@media(max-width:1000px)
+{
+    .cege__content h2
+    {
+        width: 100%;
+    }
+}
+@media(max-width:950px)
+{
+.cege__card1 h5
+{
+padding-right: 15px;
+}
+.cege__card2 h5
+{
+padding-right: 15px;
+}
+}
+@media(max-width:870px)
+{
+.cege__wrapper2
+{
+    grid-template-columns: repeat(2, 1fr);
+
+}    
+.cege__card2
+    {
+        margin-left: -100px;
+    
+    }
+.cege__card3
+    {
+        margin-left: -100px;
+    }
+}
+@media(max-width:500px)
+{
+    .cege__wrapper2
+{
+    grid-template-columns: repeat(1, 1fr);
+
+}   
+}

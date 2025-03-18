@@ -1,0 +1,55 @@
+.veer
+{
+    margin-bottom: 157px;
+}
+.veer h5
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 25px;
+line-height: 180%;
+color: #fff;
+padding-bottom: 53px;
+}
+.veer__wrapper
+{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.veer__card
+{
+    width: 295px;
+background: #1c140f;
+padding: 35px 0 35px 86px;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+.veer__card h6
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 203%;
+    color: #fff;
+}
+@media(max-width:1210px)
+{
+    .veer__wrapper
+{
+grid-template-columns: repeat(3, 1fr);
+}
+}
+@media(max-width:920px)
+{
+    .veer__wrapper
+    {
+    grid-template-columns: repeat(2, 1fr);
+    } 
+}
+@media(max-width:630px)
+{
+    .veer__wrapper
+    {
+    grid-template-columns: repeat(1, 1fr);
+    } 
+}

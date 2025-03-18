@@ -1,0 +1,72 @@
+.flutter
+{
+    padding-bottom: 105px;
+}
+.flutter h5 
+{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+padding-bottom: 15px;
+}
+
+.flutter p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    width: 497px;
+padding-bottom: 71px;
+margin: 0 auto;
+}
+.flutter__image
+{
+display: flex;
+justify-content: center;
+padding-bottom: 33px;
+gap: 27px;
+}
+.flutter__ww
+{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 187%;
+    color: #fff;
+    border-radius: 10px;
+width: 139px;
+height: 57px;
+background: rgba(255, 255, 255, 0.11);
+border: none;
+margin: 72px auto 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media(max-width:1200px)
+{
+    .flutter__image img{
+    width: 250px;
+    }
+}
+@media(max-width:850px)
+{
+    .flutter__image
+    {
+        flex-direction: column;
+    }
+    .flutter h5
+    {
+width: 95%;
+    }
+    .flutter p
+    {
+    width: 95%;
+    }
+}

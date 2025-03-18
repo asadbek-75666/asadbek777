@@ -1,0 +1,79 @@
+.mus {
+  background: #1c140f;
+  padding: 101px 0 167px;
+  margin-bottom: 127px;
+}
+.mus h3 {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+  width: 447px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.mus p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187%;
+  text-align: center;
+  color: #fff;
+  width: 555px;
+  padding-bottom: 98px;
+  margin: 0 auto;
+}
+.mus__wrapper
+{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.mus__img {
+  position: relative;
+}
+.chiziq {
+  position: absolute;
+  bottom: -100px;
+  left: 10px;
+}
+.chap {
+  position: absolute;
+  bottom: -120px;
+  right:200px;
+}
+.ong {
+  width: 150px;
+  position: absolute;
+  bottom: -170px;
+  right: 80px;
+}
+@media(max-width:1220px)
+{
+    .mus__wrapper
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:850px)
+{
+    .mus__wrapper
+{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+}
+@media(max-width:600px)
+{
+    .mus p {
+        width: 100%;
+    }
+}
+@media(max-width:500px)
+{
+    .mus h3 {
+        width: 100%;
+    }
+}

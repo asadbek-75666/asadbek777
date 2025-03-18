@@ -1,0 +1,54 @@
+.brand
+{
+    margin: 100px 0 147px;
+}
+.brand__img
+{
+    padding: 93px 0 62px;
+}
+.brand__content
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand__content h6
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189%;
+    color: #fff;
+    padding-bottom: 18px;
+    margin-left: 10px;
+}
+.brand__content h4
+{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+color: #fff;
+}
+.brand__content p
+{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+color: #fff;
+width: 325px;
+}
+.brand__content hr
+{
+    border: 1px solid #fff;
+height: 102px;
+width: 1px;
+}
+.brand__card 
+{
+    display: flex;
+    align-items: center;
+gap: 25px;
+}
+.ff
+{
+width: 100%;
+}

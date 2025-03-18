@@ -1,0 +1,66 @@
+.nice__card
+{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 88px;
+}
+.nice__card h6
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+    width: 137px;
+height: 39px;
+background: #ff8484;
+padding: 5px 0 0 24px;
+}
+.nice__card span
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+width: 137px;
+height: 39px;
+padding: 7px 0 0 45px;
+}
+.nn
+{
+    display: flex;
+    gap: 16px;
+}
+.nice__card p
+{
+width: 392px;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 23px;
+color: #fff;
+padding-top: 23px;
+}
+@media(max-width:650px)
+{
+    .nice__card p
+    {
+        width: 100%;
+    }
+}
+@media(max-width:550px)
+{
+.nice__card 
+{
+    gap: 1px; 
+    justify-content: space-between;
+}
+}
+@media(max-width:520px)
+{
+.nice__card 
+{
+    flex-direction: column;
+}
+}
+

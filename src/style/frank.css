@@ -1,0 +1,75 @@
+.Frank
+{
+    margin-bottom: 129px;
+}
+.frank__card
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.frank__card h4
+{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 31px;
+line-height: 187%;
+color: #fff;
+}
+.frank__card button
+{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 187%;
+color: #fff;
+border-radius: 10px;
+width: 139px;
+height: 57px;
+background: rgba(255, 255, 255, 0.11);
+border: none;
+}
+.frank__wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.frank__image h6
+{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 187%;
+color: #fff;
+}
+._f
+{
+    display: flex;
+    gap: 20px;
+justify-content: center;
+margin-top: 25px;
+}
+@media(max-width:1080px)
+{
+    .frank__wrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:790px)
+{
+    .frank__wrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:550px)
+{
+    .frank__wrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
