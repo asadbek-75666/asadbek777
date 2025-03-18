@@ -1,9 +1,7 @@
 import React from 'react'
 import '../style/brand.css'
 import rasm from '../image/global.png'
-import rasm2 from '../image/contact img (1).png'
-import rasm3 from '../image/contact img (2).png'
-import rasm4 from '../image/contact img (3).png'
+
 function Brand() {
   return (
 <section className='brand'>
@@ -16,23 +14,6 @@ function Brand() {
 <div className='brand__img'>
 <img className='ff' src={rasm} alt="" />
 </div>
-{/* <div className="brand__content">
-    <div>
-    <h6>Follow us</h6>
-<img src={rasm2} alt="" />
-</div>
-<hr />
-<div className='brand__card'>
-    <img src={rasm4} alt="" />
-    <h4>+94 4444 5555 6</h4>
-</div>
-<hr />
-<div className="brand__card">
-    <img src={rasm3} alt="" />
-    <p>but also the leap into electronic 
-    typesetting</p>
-</div>
-</div> */}
       </div>
     </section>
   )
